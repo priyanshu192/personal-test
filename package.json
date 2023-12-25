@@ -1,0 +1,93 @@
+{
+  "name": "fca-priyansh",
+  "version": "10.8.0",
+  "description": "Facebook-chat-api made by Priyansh rajput",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "./node_modules/.bin/eslint **.js",
+    "prettier": "prettier utils.js src/* --write"
+  },
+  "author": "Priyansh Rajput",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/priyanshu192/try/issues"
+  },
+  "homepage": "https://github.com/priyanshu192/try#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/priyanshu192/try.git"
+  },
+  "dependencies": {
+    "aes-js": "latest",
+    "assert": "latest",
+    "better-sqlite3": "7.4.5",
+    "bluebird": "latest",
+    "chalk": "4.1.2",
+    "cheerio": "latest",
+    "crypto-js": "latest",
+    "express": "latest",
+    "file-url": "^3.0.0",
+    "got": "^11.8.3",
+    "https-proxy-agent": "latest",
+    "is-hexcolor": "^1.0.0",
+    "lodash": "latest",
+    "moment": "^2.29.4",
+    "mqtt": "latest",
+    "npmlog": "latest",
+    "os": "latest",
+    "path": "latest",
+    "pretty-ms": "7.0.1",
+    "readline": "latest",
+    "request": "latest",
+    "semver": "^7.4.0",
+    "sqlite": "4.0.21",
+    "totp-generator": "latest",
+    "uuid": "latest",
+    "encode32": "latest",
+    "tough-cookie": "^4.1.2",
+    "websocket-stream": "latest"
+  },
+  "engines": {
+    "node": ">=14.x <16.x"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "mocha": "latest",
+    "prettier": "latest"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "rules": {
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-unused-vars": [
+        1,
+        {
+          "argsIgnorePattern": "^_"
+        }
+      ]
+    }
+  },
+  "keywords": [
+    "facebook-chat-api",
+    "fb-chat-api",
+    "Fca Priyansh",
+    "fca-priyansh",
+    "Priyansh fca",
+    "Priyansh Rajput"
+  ]
+}
