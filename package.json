@@ -1,6 +1,6 @@
 {
-  "name": "fca-test",
-  "version": "1.1.0",
+  "name": "fca-pretest",
+  "version": "11.1.0",
   "description": "Facebook-chat-api made by Priyansh rajput",
   "main": "index.js",
   "scripts": {
